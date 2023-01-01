@@ -49,11 +49,3 @@ The device was tested by using a [Mosquitto](https://mosquitto.org/) server runn
 The communication protocol isn't a standardized format. It produces a JSON for the status message, but it doesn't accept one.
 
 Should two separate messages be fetched in a short period of time, it sometimes hangs. Thus a delay of a few hundred milliseconds between command messages is a must.
-
-## Images
-
-!(Front view)[/pictures/01_front.jpg]
-
-!(Back view)[/pictures/02_back.jpg]
-
-!(Inside view)[/pictures/03_inside.jpg]
